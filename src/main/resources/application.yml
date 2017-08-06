@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: springcloud-feign-ribbon
+
+server:
+  port: 8080
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://node1:8761/eureka/,http://node2:8762/eureka/
+
